@@ -142,21 +142,21 @@ $(document).ready(function(){
             }
         })
     });
-//     $("button#proceedbutton").click(function(){
-//         $(".checkout").show();
-//         $("form#checkoutform").submit(function(event){
-//             event.preventDefault();
-//             var nameInput = $("input#user").val();
-//             var phoneInput = $("input#contacts").val();
-//             var locationInput = $("input#location").val();
+    $("button#proceedbutton").click(function(){
+        $(".checkout").show();
+        $("form#checkoutform").submit(function(event){
+            event.preventDefault();
+            var nameInput = $("input#user").val();
+            var phoneInput = $("input#contacts").val();
+            var locationInput = $("input#location").val();
             
     
-//             if(nameInput !== "" && locationInput !== "" && phoneInput !== ""){
-//                 alert("Hallo "+ nameInput+ ","+" Thank You. We have received your order and it will be delivered to " + locationInput + " within the shortest time.");
-//             }
-//             $("input#user").val("");
-//             $("input#location").val("");
-//             $("input#contacts").val("");
-//         });
-//     })
-// });
+            if(nameInput !== "" && locationInput !== "" && phoneInput !== ""){
+                alert("Hallo "+ nameInput+ ","+" Thank You. We have received your order and it will be delivered to " + locationInput + " within the shortest time.");
+            }
+            $("input#user").val("");
+            $("input#location").val("");
+            $("input#contacts").val("");
+        });
+    })
+});
