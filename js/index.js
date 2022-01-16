@@ -122,26 +122,26 @@ $(document).ready(function(){
                     $("#totalCost").text( "Ksh."+ total); 
                 });
                 
-//                 $("form#orderDetails").submit(function(event){
+                $("form#orderDetails").submit(function(event){
                     
-//                     event.preventDefault();
+                    event.preventDefault();
 
-//                     netTotal += total;
+                    netTotal += total;
 
-//                     var pizzaSelected = new pizzas(pizza.name,pizzaSize,pizzaCrust,pizzaToppings,total);
+                    var pizzaSelected = new pizzas(pizza.name,pizzaSize,pizzaCrust,pizzaToppings,total);
 
-//                     $("#nameOrder").text( pizzaSelected.name); 
-//                     $("#priceOrder").text( "Ksh." + pizzaSelected.total); 
-//                     $("#notordered").hide();
-//                     $(".table").show();
-//                     $("#total-orders").append('<tr><td id="pizza-name">'+pizzaSelected.name +'</td><td id="pizza-size">' + pizzaSelected.size + '</td><td id="pizza-crust">'+pizzaSelected.crust + '</td><td id="pizza-topping">'+pizzaSelected.toppings+'</td><td id="pizza-price">'+pizzaSelected.total+'</td></tr>');
-//                     $("#pizzatotalprice").text("Total Amount: " + netTotal);
+                    $("#nameOrder").text( pizzaSelected.name); 
+                    $("#priceOrder").text( "Ksh." + pizzaSelected.total); 
+                    $("#notordered").hide();
+                    $(".table").show();
+                    $("#total-orders").append('<tr><td id="pizza-name">'+pizzaSelected.name +'</td><td id="pizza-size">' + pizzaSelected.size + '</td><td id="pizza-crust">'+pizzaSelected.crust + '</td><td id="pizza-topping">'+pizzaSelected.toppings+'</td><td id="pizza-price">'+pizzaSelected.total+'</td></tr>');
+                    $("#pizzatotalprice").text("Total Amount: " + netTotal);
 
-//                     $(".checkout-btn").show()
-//                 }); 
-//             }
-//         })
-//     });
+                    $(".checkout-btn").show()
+                }); 
+            }
+        })
+    });
 //     $("button#proceedbutton").click(function(){
 //         $(".checkout").show();
 //         $("form#checkoutform").submit(function(event){
