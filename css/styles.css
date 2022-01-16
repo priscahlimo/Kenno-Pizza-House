@@ -24,11 +24,7 @@
      margin: 0 auto;
  }
 
- #home-image {
-     background-position: center;
-     background-size: cover;
- }
-
+ 
  #header-text {
      display: flex;
      justify-content: center;
