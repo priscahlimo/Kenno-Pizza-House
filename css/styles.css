@@ -5,14 +5,14 @@
     font-size: 40px;
 }
 
-/*.feedback{
+.feedback{
     background-color:rgb(255,194,58);
 }
 .feedback h4{
     text-align: center;
     font-style: italic;
 }
-#forms{
+/*#forms{
     width: 40%;
     margin: 0 auto;
 }
