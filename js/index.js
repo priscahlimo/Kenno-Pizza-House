@@ -64,16 +64,16 @@ function pizzas(name,size,crust,toppings,total){
 
 
 
-// $(document).ready(function(){
-//     var total = 0;
-//     var sizeInput = 0;
-//     var crustInput=0
-//     var toppingInput = 0;
-//     var netTotal = 0;
-//     pizza.forEach(function(pizza){
-//         $("button").click(function(){
-//             if(this.id === pizza.id){
-//                 $("#orderName").text(pizza.name);
+$(document).ready(function(){
+    var total = 0;
+    var sizeInput = 0;
+    var crustInput=0
+    var toppingInput = 0;
+    var netTotal = 0;
+    pizza.forEach(function(pizza){
+        $("button").click(function(){
+            if(this.id === pizza.id){
+                $("#orderName").text(pizza.name);
 
 //                 var pizzaSize = "";
 //                 var pizzaCrust = "";
