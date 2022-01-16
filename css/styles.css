@@ -1,0 +1,10 @@
+.nav{
+    justify-content: space-between;
+}
+ ul li a{
+    font-size: 40px;
+}
+.containerhome{
+    background-image: url(/images/home.jpg);
+    background-size: cover;
+}
