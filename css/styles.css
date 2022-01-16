@@ -1,10 +1,36 @@
-.nav{
+/* .nav{
     justify-content: space-between;
 }
  ul li a{
     font-size: 40px;
 }
-/* .containerhome{
-    background-image: url(/images/home.jpg);
+
+.feedback{
+    background-color:rgb(255,194,58);
+}
+.feedback h4{
+    text-align: center;
+    font-style: italic;
+}
+#forms{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.w-75{
+    margin: 0 auto;
+}
+#home-image{
+    background-position: center;
     background-size: cover;
+}
+#header-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+table, #deliveryfee,.checkout-btn,.checkout{
+    display: none;
 } */
