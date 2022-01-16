@@ -75,52 +75,52 @@ $(document).ready(function(){
             if(this.id === pizza.id){
                 $("#orderName").text(pizza.name);
 
-//                 var pizzaSize = "";
-//                 var pizzaCrust = "";
-//                 var pizzaToppings = "";
+                var pizzaSize = "";
+                var pizzaCrust = "";
+                var pizzaToppings = "";
 
-//                 $("#orderDetails").click(function() {
-//                     pizza.sizes.forEach(function(size){
-//                         var isChecked = $("#"+size.name).is(':checked');
-//                         if(isChecked){
-//                             $("#"+size.name+"-"+"price").text(size.price);
-//                             sizeInput = size.price;
-//                             pizzaSize = size.name;
-//                         }
-//                         else{
-//                             $("#"+size.name+"-"+"price").text("")
-//                         }
-//                     });
-//                     pizza.crusts.forEach(function(crust){
-//                         var isChecked = $("#"+crust.name).is(':checked');
-//                         if(isChecked){
-//                             $("#"+crust.name+"-"+"price").text(crust.price);
-//                             crustInput = crust.price;
-//                             pizzaCrust = crust.name;
-//                         }
-//                         else{
-//                             $("#"+crust.name+"-"+"price").text("")
-//                         }
-//                     });
-//                     pizza.toppings.forEach(function(topping){
-//                         var isChecked = $("#"+topping.name).is(':checked');
-//                         if(isChecked){
-//                             $("#"+topping.name+"-"+"price").text(topping.price);
-//                             toppingInput = topping.price;
-//                             pizzaToppings = topping.name;
-//                         }
-//                         else{
-//                             $("#"+topping.name+"-"+"price").text("")
-//                         }
-//                     })
+                $("#orderDetails").click(function() {
+                    pizza.sizes.forEach(function(size){
+                        var isChecked = $("#"+size.name).is(':checked');
+                        if(isChecked){
+                            $("#"+size.name+"-"+"price").text(size.price);
+                            sizeInput = size.price;
+                            pizzaSize = size.name;
+                        }
+                        else{
+                            $("#"+size.name+"-"+"price").text("")
+                        }
+                    });
+                    pizza.crusts.forEach(function(crust){
+                        var isChecked = $("#"+crust.name).is(':checked');
+                        if(isChecked){
+                            $("#"+crust.name+"-"+"price").text(crust.price);
+                            crustInput = crust.price;
+                            pizzaCrust = crust.name;
+                        }
+                        else{
+                            $("#"+crust.name+"-"+"price").text("")
+                        }
+                    });
+                    pizza.toppings.forEach(function(topping){
+                        var isChecked = $("#"+topping.name).is(':checked');
+                        if(isChecked){
+                            $("#"+topping.name+"-"+"price").text(topping.price);
+                            toppingInput = topping.price;
+                            pizzaToppings = topping.name;
+                        }
+                        else{
+                            $("#"+topping.name+"-"+"price").text("")
+                        }
+                    })
 
     
 
-//                     total = sizeInput + crustInput + toppingInput;
+                    total = sizeInput + crustInput + toppingInput;
                    
                    
-//                     $("#totalCost").text( "Ksh."+ total); 
-//                 });
+                    $("#totalCost").text( "Ksh."+ total); 
+                });
                 
 //                 $("form#orderDetails").submit(function(event){
                     
